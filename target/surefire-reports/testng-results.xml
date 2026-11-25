@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="0" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-12T21:47:39 IST" name="Suite" finished-at="2026-10-12T21:50:43 IST" duration-ms="184192">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@4a8355dd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-10-12T21:47:39 IST" name="Test" finished-at="2026-10-12T21:50:43 IST" duration-ms="184192">
+      <class name="cucumberOptions.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestRunner@4a8355dd]" started-at="2026-10-12T21:47:39 IST" name="setUpClass" finished-at="2026-10-12T21:47:39 IST" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4da602fc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@4a8355dd]" started-at="2026-10-12T21:47:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T21:50:43 IST" duration-ms="183895" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate add to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate add to cart functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "hooks.ScenarioHook.getDriver()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "hooks.ScenarioHook.getDriver()" is null
+at hooks.ScenarioHook.tearDown(ScenarioHook.java:79)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@4a8355dd]" started-at="2026-10-12T21:47:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T21:50:43 IST" duration-ms="183882" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating price by filter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating price by filter functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "hooks.ScenarioHook.getDriver()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "hooks.ScenarioHook.getDriver()" is null
+at hooks.ScenarioHook.tearDown(ScenarioHook.java:79)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@4a8355dd]" started-at="2026-10-12T21:47:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T21:50:43 IST" duration-ms="183882" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating price by filter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating price by filter functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "hooks.ScenarioHook.getDriver()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "hooks.ScenarioHook.getDriver()" is null
+at hooks.ScenarioHook.tearDown(ScenarioHook.java:79)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@4a8355dd]" started-at="2026-10-12T21:47:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T21:50:43 IST" duration-ms="183886" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login via email and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality of registered user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "hooks.ScenarioHook.getDriver()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "hooks.ScenarioHook.getDriver()" is null
+at hooks.ScenarioHook.tearDown(ScenarioHook.java:79)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@4a8355dd]" started-at="2026-10-12T21:47:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T21:50:43 IST" duration-ms="183898" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating price by filter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating price by filter functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "hooks.ScenarioHook.getDriver()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "hooks.ScenarioHook.getDriver()" is null
+at hooks.ScenarioHook.tearDown(ScenarioHook.java:79)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@4a8355dd]" started-at="2026-10-12T21:50:43 IST" name="tearDownClass" finished-at="2026-10-12T21:50:43 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

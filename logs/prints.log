@@ -1,0 +1,2 @@
+21:50:43.625 [TestNG-PoolService-5] ERROR stepDefinations.C_ValidateAddToCartStep - Exception occurred:Cannot invoke "pageObjects.CartPage.getItemQuantity()" because "this.cartPage" is null
+21:50:43.897 [TestNG-PoolService-2] ERROR stepDefinations.B_validateFilterByPriceStep - Exception occurred:Cannot invoke "java.util.List.size()" because "this.flowerList" is null
